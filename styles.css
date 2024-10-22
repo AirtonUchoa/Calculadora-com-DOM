@@ -1,0 +1,79 @@
+*{
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Divisão da Calculadora */
+
+#calculator-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20vw;
+    height: 70vh;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+
+#calc-prompt{
+    height: 40px;
+    border: 1px solid rgb(111, 111, 111);
+    border-radius: 4px;
+    width: 180px;
+    margin: 10px;
+}
+
+
+/* Estilização do Botão */
+.button-style{ 
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+.button-style:hover{
+    background-color: rgb(194, 188, 188);
+    border: 1px solid black;
+}
+
+.button-block{
+    margin: 10px;
+}
+
+#alt-dot-button-style{
+    width: 90px;
+}
+
+#alt-equal-button-style{
+    position: absolute;
+    right: 673px;
+    height: 85px;
+}
+
